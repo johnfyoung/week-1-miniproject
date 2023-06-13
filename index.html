@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="color-white" href="">Portfolio</a></li>
+          <li><a class="color-white" href="">About</a></li>
+          <li><a class="color-white" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="mb-5">My personal webpage</h1>
+      <section id="portrait">
+        <figure>
+          <img src="./assets/images/john.png" alt="Portrait of John Young" />
+          <figcaption>John Young</figcaption>
+        </figure>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <div>
+            <label for="contactname">Name:</label>
+            <input
+              id="contactname"
+              name="contactname"
+              type="text"
+              placeholder="your name here"
+            />
+          </div>
+          <div>
+            <label for="emailaddress">Email:</label>
+            <input
+              id="emailaddress"
+              name="emailaddress"
+              type="email"
+              placeholder="e.g. you@domain.com"
+            />
+          </div>
+          <div>
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="color-white">
+      <span>©2023 John Young</span>
+    </footer>
+  </body>
+</html>

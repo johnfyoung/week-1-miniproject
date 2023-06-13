@@ -1,0 +1,114 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* tan: #dbd5b5 */
+/* moonstone: #2b9eb3 */
+/* yellow: #fcab10 */
+/* red: #f8333c */
+/* green: #44af69 */
+
+body {
+  background-color: #dbd5b5;
+}
+
+header {
+  background-color: #2b9eb3;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header nav {
+  text-align: right;
+}
+
+main {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+  color: white;
+  padding: 0px 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: #2b9eb3;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #44af69;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+form button[type="submit"] {
+  padding: 5px 15px;
+  background-color: #fcab10;
+}
+
+section#portrait {
+  text-align: center;
+}
+
+.color-white {
+  color: white;
+}
+
+a.color-white:hover {
+  color: #fcab10;
+}
+
+.mb-1 {
+  margin-bottom: 0.8rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-bottom: 0.8rem;
+}
+
+.mt-2 {
+  margin-bottom: 1rem;
+}
+
+.mt-3 {
+  margin-bottom: 1.25rem;
+}
